@@ -18,6 +18,7 @@ class RombelResource extends Resource
     protected static ?string $model = Rombel::class;
 
     protected static bool $shouldRegisterNavigation = false;
+    protected static ?string $modelLabel = 'Kelas';
 
     public static function form(Form $form): Form
     {

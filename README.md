@@ -1,11 +1,18 @@
 # Tentang
 
-Aplikasi tabungan sederhana yang dibuat dengan [Laravel](https://laravel.com) dan [Filament](https://filamentphp.com/)
+Aplikasi tabungan siswa sederhana yang dibuat dengan [Laravel](https://laravel.com) dan [Filament](https://filamentphp.com/)
 
-## Installation
+## Fitur-fitur
+
+Daftar Siswa
+Transaksi Setoran & Penarikan
+Pengaturan Kelas
+Pengaturan Pengguna
+Pengaturan Role Pengguna
+
+## Panduan Instalasi
 
 Silahkan cek panduan instalasi dan kebutuhan sistem Laravel [disini](https://laravel.com/docs/10.x/installation#installation)
-
 
 Clone repository
 
@@ -39,16 +46,17 @@ Aplikasi tabunganku dapat diakses di http://localhost:8000
 
 ## Environment variables
 
-- `.env` - Environment variables can be set in this file
+-   `.env` - Environment variables can be set in this file
 
-----------
+---
+
 # Username default
 
 Default Email :
 
-    admin@local.net 
+    admin@local.net
 
-Password : 
+Password :
 
     4dmin++
 

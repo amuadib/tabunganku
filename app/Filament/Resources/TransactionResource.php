@@ -104,7 +104,8 @@ class TransactionResource extends Resource
                 // Tables\Actions\BulkActionGroup::make([
                 //     Tables\Actions\DeleteBulkAction::make(),
                 // ]),
-            ]);
+            ])
+            ->emptyStateHeading('Belum ada transaksi');
     }
 
     public static function getRelations(): array

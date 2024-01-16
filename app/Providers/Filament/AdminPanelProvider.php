@@ -71,6 +71,11 @@ class AdminPanelProvider extends PanelProvider
                     ->icon('heroicon-o-academic-cap')
                     ->url('/admin/rombels')
                     ->isActiveWhen(fn () => request()->routeIs('*.rombels.*')),
+                NavigationItem::make('Pengguna')
+                    ->visible(fn (): bool => auth()->user()->isAdmin())
+                    ->icon('heroicon-o-user-circle')
+                    ->url('/admin/users')
+                    ->isActiveWhen(fn () => request()->routeIs('*.users.*')),
             ]);
     }
 }
