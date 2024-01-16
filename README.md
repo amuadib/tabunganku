@@ -4,11 +4,11 @@ Aplikasi tabungan siswa sederhana yang dibuat dengan [Laravel](https://laravel.c
 
 ## Fitur-fitur
 
-Daftar Siswa
-Transaksi Setoran & Penarikan
-Pengaturan Kelas
-Pengaturan Pengguna
-Pengaturan Role Pengguna
+-   Daftar Siswa
+-   Transaksi Setoran & Penarikan
+-   Pengaturan Kelas
+-   Pengaturan Pengguna
+-   Pengaturan Role Pengguna
 
 ## Panduan Instalasi
 
