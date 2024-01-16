@@ -14,7 +14,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            background-image: url('https://picsum.photos/id/10/1900/1200');
+            background-image: url('https://picsum.photos/id/128/1900/1200');
         }
     </style>
 </head>
