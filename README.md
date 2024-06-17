@@ -36,6 +36,10 @@ Lakukan migrasi database
 
     php artisan migrate --seed
 
+Generate App Key
+
+    php artisan key:generate
+    
 Mulai aplikasi dengan perintah
 
     php artisan serve
