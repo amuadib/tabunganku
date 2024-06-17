@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         $now = date('Y-m-d H:i:s');
         DB::table('users')->insert([
             'name' => 'Admin',
+            'role' => 'admin',
             'email' => 'admin@local.net',
             'email_verified_at' => $now,
             'password' => Hash::make('4dmin++'),
